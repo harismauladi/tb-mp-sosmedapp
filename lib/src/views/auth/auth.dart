@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AuthContainer extends StatelessWidget {
   const AuthContainer({Key? key}) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -73,10 +73,10 @@ class AuthContainer extends StatelessWidget {
                           label: const Text('Login with Google'),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            foregroundColor: Colors.black,
+                            foregroundColor: Color.fromARGB(207, 0, 123, 255),
                             minimumSize: const Size(300, 50),
                             side: const BorderSide(
-                              color: Colors.black,
+                              color: Color.fromARGB(207, 0, 123, 255),
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -91,10 +91,10 @@ class AuthContainer extends StatelessWidget {
                           label: const Text('Login with Facebook'),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            foregroundColor: Colors.black,
+                            foregroundColor: Color.fromARGB(207, 0, 123, 255),
                             minimumSize: const Size(300, 50),
                             side: const BorderSide(
-                              color: Colors.black,
+                              color: Color.fromARGB(207, 0, 123, 255),
                               width: 1,
                               style: BorderStyle.solid,
                             ),
